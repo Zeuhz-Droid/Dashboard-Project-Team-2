@@ -52,8 +52,29 @@
 
 /* END  OF FONT STYLES*/
 
+/* GENERAL STYLE VARIABLES */
 
+:root {
+    /* Dashboard and Button */
 
+    --color-txt: #bdbdbd;
+    --color-btn:#b6cb9c;
+    --color-dashboard:#b4cd93;
+
+    /* Middle Section Headers */
+   
+    --dark-green: #5c664e;
+    --dark-red: #794b3e;
+    --darker-green: #2f4538;
+    --dark-yellow: #8f7544;
+
+    /* Middle section or Main Content Body */
+
+    --verified-bg: #dfede6;
+    --pending-bg: #f7f0b6;
+    --number-bg: #ebdfdd;
+    --status-completion-bg: #4c4c4c;
+}
 
 
 /* GENERAL STYLES START HERE */
