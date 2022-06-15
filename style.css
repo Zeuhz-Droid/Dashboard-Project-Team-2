@@ -1,0 +1,53 @@
+/* FONT STYLES APPENDED HERE */
+
+/* START */
+
+@font-face {
+    font-family: 'Luxora Grotesk';
+    src: url('/font.css/LuxoraGrotesk-Medium.eot');
+    src: url('/font.css/LuxoraGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/font.css/LuxoraGrotesk-Medium.woff2') format('woff2'),
+        url('/font.css/LuxoraGrotesk-Medium.woff') format('woff'),
+        url('/font.css/LuxoraGrotesk-Medium.svg#LuxoraGrotesk-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Luxora Grotesk';
+    src: url('LuxoraGrotesk-Light.eot');
+    src: url('/font.css/LuxoraGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('/font.css/LuxoraGrotesk-Light.woff2') format('woff2'),
+        url('/font.css/LuxoraGrotesk-Light.woff') format('woff'),
+        url('/font.css/LuxoraGrotesk-Light.svg#LuxoraGrotesk-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Luxora Grotesk';
+    src: url('/font.css/LuxoraGrotesk-Thin.eot');
+    src: url('/font.css/LuxoraGrotesk-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/font.css/LuxoraGrotesk-Thin.woff2') format('woff2'),
+        url('/font.css/LuxoraGrotesk-Thin.woff') format('woff'),
+        url('/font.css/LuxoraGrotesk-Thin.svg#LuxoraGrotesk-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Luxora Grotesk';
+    src: url('/font.css/LuxoraGrotesk-Regular.eot');
+    src: url('/font.css/LuxoraGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font.css/LuxoraGrotesk-Regular.woff2') format('woff2'),
+        url('/font.css/LuxoraGrotesk-Regular.woff') format('woff'),
+        url('/font.css/LuxoraGrotesk-Regular.svg#LuxoraGrotesk-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* END  OF FONT STYLES*/
