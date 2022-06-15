@@ -1,5 +1,4 @@
-/* FONT STYLES APPENDED HERE */
-
+/* FONT STYLES (SOURCED VIA THE WEB) APPENDED HERE */
 /* START */
 
 @font-face {
@@ -52,7 +51,10 @@
 
 /* END  OF FONT STYLES*/
 
-/* GENERAL STYLE VARIABLES */
+
+
+/* GENERAL ROOT VARIABLES */
+/* START */
 
 :root {
     /* Dashboard and Button */
@@ -75,10 +77,11 @@
     --number-bg: #ebdfdd;
     --status-completion-bg: #4c4c4c;
 }
+/* END */
+
 
 
 /* GENERAL STYLES START HERE */
-
 /* FOR PROPER SITE RESPONSIVENESS START*/
 
 *,
