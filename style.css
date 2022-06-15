@@ -58,7 +58,7 @@
 
 /* GENERAL STYLES START HERE */
 
-/* FOR PROPER SITE RESPONSIVENESS */
+/* FOR PROPER SITE RESPONSIVENESS START*/
 
 *,
 *::before,
@@ -82,3 +82,5 @@ body {
     max-width: 100%;
     margin: 0 auto;
 }
+
+/* FOR PROPER SITE RESPONSIVENESS  END*/
