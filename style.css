@@ -59,6 +59,7 @@
 :root {
     /* Dashboard and Button */
 
+    --color-bg: #eeeeee;
     --color-txt: #bdbdbd;
     --color-btn:#b6cb9c;
     --color-dashboard:#b4cd93;
@@ -108,3 +109,72 @@ body {
 }
 
 /* FOR PROPER SITE RESPONSIVENESS  END*/
+
+/* STYLING THE SIDEBAR RIGHT SIDE */
+
+.sidebar2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 100%;
+    padding: 3rem 5rem;
+    
+    border: 2px solid greenyellow;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.user-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.user-detail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-img {
+    height: 5rem;
+    width: 5rem;
+    border: 3px solid var(--color-bg);
+    border-radius: 50%;
+}
+
+.user {
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    color: var(--status-completion-bg);
+}
+
+.user-pos {
+    color: var(--color-txt);
+}
+
+.user-notification-box {
+    background-color: var(--color-bg);
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+
+    position: relative;
+}
+
+.user-notification {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--status-completion-bg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
