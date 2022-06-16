@@ -60,7 +60,9 @@
     /* Dashboard and Button */
 
     --color-bg: #eeeeee;
+    --color-bg-light: #fafafa;
     --color-txt: #bdbdbd;
+    --color-txt-dark: #999999;
     --color-btn:#b6cb9c;
     --color-dashboard:#b4cd93;
 
@@ -125,11 +127,15 @@ body {
     gap: 2rem;
 }
 
+
+/* THE STYLE FOR THE USER NAVIGATION ON THE RIGHT SIDEBAR */
+/* START */
 .user-nav {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
 
 }
 
@@ -177,4 +183,126 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* END */
+
+
+/* STYLE FOR THE ARTISTS SECTION */
+
+.heading-3 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.sidebar-artist {
+    background-color: var(--color-bg-light);
+    padding: 4rem 3rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.artist-forum {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.artist-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-photo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.artist-img {
+
+}
+
+.artist-name {
+    font-weight: 500;
+    color: var(--status-completion-bg);
+}
+
+.artist-sale {
+    color: var(--color-txt);
+}
+
+.artist-revenue {
+    color: var(--color-txt-dark);
+}
+
+/* BUTTON PART OF THE ARTIST SECTION */
+.btn-box {
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    appearance: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-family: inherit;
+    width: max-content;
+    border: none;
+    color: var(--status-completion-bg);
+    background-color: inherit;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition: all .2s;
+}
+
+.btn-color {
+    background-color: var(--color-btn);
+    border: 2px solid transparent;
+}
+
+.btn-color:hover {
+    background-color: var(--color-bg-light);
+    border: 2px solid var(--color-btn);
+    color: var(--dark-green);
+}
+
+.btn-color:active {
+    background-color: var(--color-btn);
+}
+
+/* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
+
+.sidebar-day {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidebar-time {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidebar-time .empty {
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 1px solid var(--color-bg);
+}
+
+.bg-color-green {
+    padding: 2rem;
+    border-radius: .5rem;
+    border: 1px solid var(--color-btn);
+    background-color: var(--color-btn);
+}
+
+.sidebar-date {
+    font-size: 2rem;
+    font-weight: normal;
+    color: var(--status-completion-bg);
 }
