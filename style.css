@@ -191,7 +191,7 @@ body {
     align-items: center;
     gap: 1.5rem;
     
-    transition: all .2s;
+    transition: all .2s ease-in;
 }
 
 .nav-link:hover {
