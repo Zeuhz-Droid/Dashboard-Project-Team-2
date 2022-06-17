@@ -65,6 +65,7 @@
     --color-txt-dark: #999999;
     --color-btn:#b6cb9c;
     --color-dashboard:#b4cd93;
+    --color-red :#8e3131;
 
     /* Middle Section Headers */
    
@@ -108,19 +109,126 @@ body {
     width: 90vw;
     max-width: 100%;
     margin: 0 auto;
+
+    border: 2px solid greenyellow;
+
+    display: flex;
 }
 
 /* FOR PROPER SITE RESPONSIVENESS  END*/
 
-/* STYLING THE SIDEBAR RIGHT SIDE */
 
-.sidebar2 {
+
+/* STYLING THE SIDEBAR ON THE LEFT SIDE */
+/* START */
+
+.sidebar-left {
+    background-color: var(--color-bg-light);
+    margin: 0 auto;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo-box {
+    font-weight: 500;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, var(--color-btn) 40%, var(--dark-green));
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    height: 4rem;
+    width: 4rem;
+    fill: var(--color-dashboard);
+}
+
+.logo-text {
+    font-size: 3rem;
+    display: inline-block;
+    letter-spacing: .2rem;
+}
+
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--color-txt-dark);
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: .5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+    transition: all .2s;
+}
+
+.nav-link:hover {
+    color: var(--status-completion-bg);
+    border-radius: .5rem;
+    background-color: var(--color-dashboard);
+}
+
+.nav-link:hover .nav-icon {
+    fill: var(--status-completion-bg);
+}
+
+.nav-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--color-txt-dark);
+    border-radius: .5rem;
+}
+
+.nav-text {
+    font-weight: normal;
+}
+
+.red {
+    fill: var(--color-red);
+    color: var(--color-red);
+}
+
+.red:hover {
+    color: var(--status-completion-bg);
+}
+
+.copyright {
+    align-self: center;
+    color: var(--color-txt);
+}
+
+/* END */
+
+
+
+/* STYLING THE SIDEBAR ON THE RIGHT SIDE */
+/* START */
+
+.sidebar-right {
     font-size: 1.5rem;
     font-weight: 300;
     width: 100%;
     padding: 3rem 5rem;
-    
-    border: 2px solid greenyellow;
 
     display: flex;
     flex-direction: column;
@@ -129,7 +237,7 @@ body {
 
 
 /* THE STYLE FOR THE USER NAVIGATION ON THE RIGHT SIDEBAR */
-/* START */
+
 .user-nav {
     display: flex;
     flex-direction: row;
@@ -184,8 +292,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/* END */
-
 
 /* STYLE FOR THE ARTISTS SECTION */
 
@@ -205,6 +311,8 @@ body {
 }
 
 .artist-forum {
+    margin-top: 2rem;
+
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -223,8 +331,8 @@ body {
 }
 
 .artist-img-box {
-    height: 6rem;
-    width: 6rem;
+    height: 5rem;
+    width: 5rem;
     border: 1rem solid var(--color-bg);
     border-radius: 50%;
     overflow: hidden;
@@ -261,6 +369,7 @@ body {
 }
 
 /* BUTTON PART OF THE ARTIST SECTION */
+
 .btn-box {
     display: block;
     text-align: center;
@@ -329,3 +438,5 @@ body {
     color: var(--status-completion-bg);
 }
 
+/* SIDEBAR DAY END */
+/* END */
