@@ -124,7 +124,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 
@@ -201,7 +201,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
 }
 
 .artist-forum {
@@ -213,6 +213,7 @@ body {
 .artist-detail {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .artist-photo {
@@ -221,8 +222,29 @@ body {
     gap: 1rem;
 }
 
-.artist-img {
+.artist-img-box {
+    height: 6rem;
+    width: 6rem;
+    border: 1rem solid var(--color-bg);
+    border-radius: 50%;
+    overflow: hidden;
+}
 
+.artist-img-box.square {
+    border: .3rem solid var(--color-bg);
+    border-radius: 1rem;
+}
+
+.artist-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.artist-img.circle {
+    padding: 1rem;
+    border-radius: 50%;
 }
 
 .artist-name {
@@ -306,3 +328,4 @@ body {
     font-weight: normal;
     color: var(--status-completion-bg);
 }
+
