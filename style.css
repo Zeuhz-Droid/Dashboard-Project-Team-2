@@ -118,14 +118,22 @@ body {
 }
 
 .container {
-    width: 90vw;
     max-width: 100%;
     margin: 0 auto;
 
-    border: 2px solid greenyellow;
-
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
 }
+
+#current {
+    color: var(--status-completion-bg);
+    background-color: var(--color-dashboard);
+}
+
+#current svg {
+    fill: var(--status-completion-bg);
+}
+
 
 /* FOR PROPER SITE RESPONSIVENESS  END*/
 
@@ -189,9 +197,9 @@ body {
 
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
     
-    transition: all .2s ease-in;
+    transition: all .1s ease-in;
 }
 
 .nav-link:hover {
@@ -238,20 +246,20 @@ body {
 /* START */
 
 .sidebar-right {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 300;
-    width: 100%;
     padding: 3rem 5rem;
 
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 
 /* THE STYLE FOR THE USER NAVIGATION ON THE RIGHT SIDEBAR */
 
 .user-nav {
+    font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -309,7 +317,7 @@ body {
 /* STYLE FOR THE ARTISTS SECTION */
 
 .heading-3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: normal;
     text-align: center;
 }
@@ -391,13 +399,13 @@ body {
 .btn {
     appearance: none;
     cursor: pointer;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: inherit;
     width: max-content;
     border: none;
     color: var(--status-completion-bg);
     background-color: inherit;
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 1rem;
     transition: all .2s;
 }
@@ -426,27 +434,27 @@ body {
 }
 
 .sidebar-time {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
 .sidebar-time .empty {
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: .5rem;
-    border: 1px solid var(--color-bg);
+    border: .15rem solid var(--color-bg);
 }
 
 .bg-color-green {
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: .5rem;
-    border: 1px solid var(--color-btn);
+    border: .15rem solid var(--color-btn);
     background-color: var(--color-btn);
 }
 
 .sidebar-date {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
     color: var(--status-completion-bg);
 }
