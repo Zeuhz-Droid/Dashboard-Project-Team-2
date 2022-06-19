@@ -125,6 +125,27 @@ body {
     grid-template-columns: 1fr 3fr 2fr;
 }
 
+/* STYLE FOR HIGHLIGHTING TEXT ON PAGE */
+::selection {
+    background-color: var(--color-dashboard);
+    color: var(--color-bg-light);
+}
+
+/* MINOR UTILITIES */
+
+.heading-h2 {
+    font-family: 'Luxora Grotesk';
+    font-weight: normal;
+    font-size: 1.8rem;
+    letter-spacing: .05rem;
+}
+
+.heading-h3 {
+    font-family: 'Luxora Grotesk';
+    font-size: 2rem;
+    font-weight: normal;
+}
+
 #current {
     color: var(--status-completion-bg);
     background-color: var(--color-dashboard);
@@ -134,6 +155,13 @@ body {
     fill: var(--status-completion-bg);
 }
 
+#current-page-nav {
+    background-color: var(--color-txt);
+}
+
+#current-page-nav a {
+    color: var(--color-bg-light);
+}
 
 /* FOR PROPER SITE RESPONSIVENESS  END*/
 
@@ -146,6 +174,7 @@ body {
     background-color: var(--color-bg-light);
     margin: 0 auto;
     padding: 3rem;
+    padding-top: 4rem;
 
     display: flex;
     flex-direction: column;
@@ -153,6 +182,7 @@ body {
     justify-content: space-between;
 }
 
+/* THE LOGO SECTION OF THE LEFT SIDEBAR i.e THE BEZIER LOGO */
 .logo-box {
     font-weight: 500;
     color: transparent;
@@ -167,18 +197,18 @@ body {
 }
 
 .logo {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     fill: var(--color-dashboard);
 }
 
 .logo-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
     display: inline-block;
     letter-spacing: .2rem;
 }
 
-
+/* THE CONTENT OF THE LEFT SIDEBAR i.e THE DASHBOARD NAVIGATIONS */
 .nav {
     width: 100%;
     display: flex;
@@ -188,7 +218,7 @@ body {
 
 .nav-link:link,
 .nav-link:visited {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-decoration: none;
     color: var(--color-txt-dark);
     padding: 1rem 2rem;
@@ -224,6 +254,7 @@ body {
     font-weight: normal;
 }
 
+/* QUICK UTILITY TOOL */
 .red {
     fill: var(--color-red);
     color: var(--color-red);
@@ -233,12 +264,453 @@ body {
     color: var(--status-completion-bg);
 }
 
+/* THE BOTTOM EXTRA, JUST FOR AESTHETICS */
 .copyright {
     align-self: center;
     color: var(--color-txt);
 }
 
 /* END */
+/* /////////////////////////////////////////////////////////// */
+
+
+
+
+/* STYLING FOT THE MAIN SECTION i.e THE MIDDLE SECTION */
+/* START */
+
+.main {
+    font-family: 'Luxora Grotesk Book';
+    font-weight: normal;
+    font-size: 1.4rem;
+    color: var(--status-completion-bg);
+    padding: 5rem 2rem 3rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+/* THE TOPMOST SEARCH INPUT STYLED i.e THE GENERAL SEARCH INPUT*/
+.search {
+    width: 100%;
+    position: relative;
+}
+
+.search-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    fill: var(--status-completion-bg);
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+}
+
+.search-input {
+    font-family: 'Luxora Grotesk Book';
+    font-size: 1.5rem;
+    color: var(--color-txt-dark);
+    caret-color: var(--color-txt); 
+    width: 100%;
+    padding: 1.3rem;
+    padding-left: 6rem;
+    border: .15rem solid var(--color-bg);
+    border-radius: .4rem;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem var(--color-bg);
+}
+
+.search-input::-webkit-input-placeholder {
+    font-size: 1.5rem;
+    color: var(--color-txt-dark);
+}
+
+/* THE COLORED BOXES(SECTION) IN THE MAIN CONTENT */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.boxes {
+    display: flex;
+    gap: 3rem;
+}
+
+.box {
+    width: 40%;
+    height: max-content;
+    border-radius: .5rem;
+    padding: 2rem 1rem 1.5rem;
+    background-image: linear-gradient(75deg, 
+            var(--dark-green) 42%,
+            var(--dark-red) 42%, 
+            var(--dark-red) 70%,
+            var(--darker-green) 70%,
+            var(--darker-green) 85%,
+            var(--dark-yellow) 85%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.box span {
+    color: var(--color-bg-light);
+}
+
+.box span:first-child {
+    font-family: 'Luxora Grotesk';
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: -.1rem;
+}
+
+.box span:last-child {
+    font-family: 'Luxora Grotesk';
+    font-weight: 300;
+}
+
+/* THE BODY'S CONTENT STYLES i.e THE TABLE STRUCTURE */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content-heading span {
+    font-family: 'Luxora Grotesk';
+    font-weight: 300;
+    color: var(--color-txt);
+}
+
+.content-search {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content-search .search .search-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.content-search .search .search-input {
+    padding: .5rem;
+    padding-left: 3rem;
+}
+
+.content-search .search .search-input::-webkit-input-placeholder {
+    font-size: 1.4rem;
+    color: var(--color-txt-dark);
+}
+
+.content-icon {
+    font-size: 1.4rem;
+    padding: .5rem;
+    border: .15rem solid var(--color-bg);
+    border-radius: .5rem;
+    fill: var(--status-completion-bg);
+    color: var(--status-completion-bg);
+    position: relative;
+    display: flex;
+    gap: .5rem;
+}
+
+.content-icon select {
+    appearance: none;
+    border: none;
+    padding: 0 1rem 0 .5rem;
+    border-radius: 0;
+}
+
+.content-icon select:focus {
+    outline: none;
+}
+
+.content-icon-1 {
+    width: 1.8rem;
+    height: 1.8rem;
+    transform: rotateY(180deg);
+    border-radius: 1rem;
+}
+
+.content-icon-2 {
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    top: 48%;
+    left: 18%;
+    z-index: 1;
+    background-color: var(--color-bg-light);
+}
+
+
+/* STYLES FOR THE TABLE SECTION */
+
+.content-body {
+    font-family: 'Luxora Grotesk';
+    font-weight: normal;
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    border-radius: .5rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.table-head {
+    background-color: var(--color-bg);
+}
+
+.table-body {
+    background-color: var(--color-bg-light);
+}
+
+.table-foot {
+    background-color: var(--color-bg);
+}
+
+.table-row {
+    position: relative;
+}
+
+.table-row:not(:last-child):after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    border-bottom: 1px solid var(--color-bg);
+}
+
+.table-col {
+    padding: 1rem 2rem;
+    text-align: start;
+}
+
+.head-col {
+    font-family: 'Luxora Grotesk';
+    font-weight: normal;
+    padding: 1.3rem 2rem;
+    text-align: start;
+}
+
+
+/* STYLES FOR TABLE CONTENTS/BODY i.e EACH TABLE ROW OR DATA */
+
+.table-col .artist .artist-photo .artist-img-box {
+    height: 3.8rem;
+    width: 3.8rem;
+    border: .8rem solid var(--color-bg);
+}
+
+.artist-name.light{
+    color: var(--color-txt-dark);
+}
+
+.verified,
+.pending {
+    font-family: 'Luxora Grotesk Book';
+    font-size: 1.4rem;
+    font-weight: normal;
+    width: max-content;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.verified {
+    color: var(--dark-green);
+    background-color: var(--verified-bg);
+}
+
+.unverified {
+    font-family: 'Luxora Grotesk';
+    font-weight: 300;
+    color: var(--color-txt);
+}
+
+.pending {
+    color: var(--dark-yellow);
+    background-color: var(--pending-bg);
+}
+
+/* RATINGS */
+.ratings {
+    font-family: 'Luxora Grotesk';
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.rate-bar {
+    width: 10rem;
+    height: .5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--color-bg);
+}
+
+.rate-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    background-color: var(--status-completion-bg);   
+}
+
+.fourty.rate-bar::before {
+    transform: translateX(-60%);
+}
+
+.fifty-seven.rate-bar::before {
+    transform: translateX(-43%);
+}
+
+.eighty-nine.rate-bar::before {
+    transform: translateX(-11%);
+}
+
+.fifty.rate-bar::before {
+    transform: translateX(-50%);
+}
+
+.sixty-four.rate-bar::before {
+    transform: translateX(-36%);
+}
+
+
+.rate-percent {
+    font-family: 'Luxora Grotesk';
+    font-weight: 300;
+
+}
+
+.rate-gain,
+.rate-loss {
+    font-family: 'Luxora Grotesk Book';
+    font-size: 1.4rem;
+    font-weight: normal;
+    width: max-content;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.rate-gain {
+    fill: var(--dark-green);
+    color: var(--dark-green);
+    background-color: var(--verified-bg);
+}
+
+.rate-loss {
+    fill: var(--dark-red);
+    color: var(--dark-red);
+    background-color: var(--number-bg);
+}
+
+.rate-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* PROJECTS AND SALES */
+
+.projects,
+.sales {
+    font-family: 'Luxora Grotesk';
+    font-weight: 300;
+}
+
+
+/* THE TABLE FOOT SECTION i.e THE TABLE NAVIGATION */
+
+.table-nav {
+    font-family: 'Luxora Grotesk Book';
+    font-weight: normal;
+    font-size: 1.4rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn {
+    appearance: none;
+    border: none;
+}
+
+.btn.previous {
+    color: var(--color-txt-dark);
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.numbers p {
+    font-family: 'Luxora Grotesk';
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--color-bg-light);
+
+    position: relative;
+    transition: all .2s;
+}
+
+.numbers p a:link,
+.numbers p a:visited {
+    text-decoration: none;
+    color: var(--status-completion-bg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.numbers p:hover {
+    background-color: var(--color-txt);
+}
+
+.numbers p:hover a {
+    color: #0e0e0e;
+}
+
+/* END */
+/* /////////////////////////////////////////////////////////// */
+
 
 
 
@@ -248,7 +720,7 @@ body {
 .sidebar-right {
     font-size: 1.4rem;
     font-weight: 300;
-    padding: 3rem 5rem;
+    padding: 4rem 5rem 3rem;
 
     display: flex;
     flex-direction: column;
@@ -260,6 +732,7 @@ body {
 
 .user-nav {
     font-size: 1.5rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -285,6 +758,7 @@ body {
     font-weight: normal;
     display: flex;
     flex-direction: column;
+    gap: .3rem;
 }
 
 .user-name {
@@ -348,7 +822,7 @@ body {
 .artist-photo {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: .8rem;
 }
 
 .artist-img-box {

@@ -21,6 +21,8 @@
                 </svg>
                 <h2 class="logo-text">Bezier</h2>
             </div>
+            
+            <div></div>
 
             <div class="nav">
                 <div class="nav-item">
@@ -57,8 +59,6 @@
                 </div>
             </div>
 
-            <div></div>
-
             <div class="nav">
                 <div class="nav-item">
                     <a href="#" class="nav-link">
@@ -83,7 +83,6 @@
             <div></div>
             <div></div>
             
-
             <div class="copyright">
                 <span>All rights reserved &copy;2022</span>
             </div>
@@ -101,13 +100,13 @@
                 <svg class="search-icon" root="svg">
                     <use xlink:href="/sprite.svg#icon-search" src="svg"></use>
                 </svg>
-                <input type="text" value="Search" class="search-input">
+                <input type="text" placeholder="Search artists, projects..." class="search-input">
             </div>
 
             <div class="header">
-                <h2 class="heading-h2">
+                <h3 class="heading-h3">
                     In the Last 30 days,
-                </h2>
+                </h3>
 
                 <div class="boxes">
                     <div class="box">
@@ -128,7 +127,7 @@
             <div class="content">
                 <div class="content-header">
                     <div class="content-heading">
-                        <h2 class="heading-h2">All artists</h2>
+                        <h3 class="heading-h3">All artists</h3>
                         <span>Monitor artists sales, reviews etc</span>
                     </div>
 
@@ -137,71 +136,229 @@
                             <svg class="search-icon" root="svg">
                                 <use xlink:href="/sprite.svg#icon-search" src="svg"></use>
                             </svg>
-                            <input type="text" value="Search" class="search-input">
+                            <input type="text" placeholder="Search" class="search-input">
                         </div>
+                        
                         <div class="content-icon">
-                            <svg class="search-icon" root="svg">
-                                <use xlink:href="/sprite.svg#icon-filter2" src="svg"></use>
+                            <svg class="content-icon-1" root="svg">
+                                <use xlink:href="/sprite.svg#icon-filter1" src="svg"></use>
                             </svg>
-                            <svg class="search-icon" root="svg">
+                            <svg class="content-icon-2" root="svg">
                                 <use xlink:href="/sprite.svg#icon-search" src="svg"></use>
                             </svg>
+                            <select name="filter" id="filter">
+                                <option value="filter">Filter</option>
+                                <option value="age">age</option>
+                                <option value="artist">artist</option>
+                                <option value="date">date</option>
+                            </select>
                         </div>
                     </div>
                 </div>
 
                 <div class="content-body">
-                    <table class="table">
+                    <table class="table" cellspacing="0">
                         <thead class="table-head">
-                            <tr class="table-row">
-                                <th class="table-col">Artist</th>
-                                <th class="table-col">Status</th>
-                                <th class="table-col">Ratings</th>
-                                <th class="table-col">Projects sold</th>
-                                <th class="table-col">Highest sale</th>
+                            <tr class="head-row">
+                                <th class="head-col">Artist</th>
+                                <th class="head-col">Status</th>
+                                <th class="head-col">Ratings</th>
+                                <th class="head-col">Projects sold</th>
+                                <th class="head-col">Highest sale</th>
                             </tr>
                         </thead>
 
                         
                         <tbody class="table-body">
+                            
                             <tr class="table-row">
-                                <td class="artist">
-                                    <figure class="artist-photo">
-                                        <div class="artist-img-box">
-                                            <img src="img/artist 1.jpg" alt="Image of artist" class="artist-img">
-                                        </div>                     
-                                        <figcaption class="artist-name">Flotsam</figcaption>
-                                    </figure>
+                                <td class="table-col">
+                                    <div class="artist">
+                                        <figure class="artist-photo">
+                                            <div class="artist-img-box">
+                                                <img src="img/artist 1.jpg" alt="Image of artist" class="artist-img">
+                                            </div>                     
+                                            <figcaption class="artist-name light">Flotsam</figcaption>
+                                        </figure>
+                                    </div>
                                 </td>
-                                <td class="verified">verified</td>
-                                <td class="ratings">
-                                    <span class="rate-bar">&nbsp;</span>
-                                    <span class="rate-percent">40%</span>
-                                    <span class="rate-gain">
-                                        <svg class="table-icon icon-gain" root="svg">
-                                            <use xlink:href="/sprite.svg#icon-arrow-up" src="svg"></use>
-                                        </svg> 
-                                    </span>
+                                <td class="table-col">
+                                    <div class="verified">verified</div>
                                 </td>
-                                <td class="projects">400</td>
-                                <td class="sale">$400,000</td>
+                                <td class="table-col">
+                                    <div class="ratings">
+                                        <div class="rate-bar fourty"></div>
+                                        <span class="rate-percent">40%</span>
+                                        <span class="rate-gain">
+                                            <svg class="rate-icon" root="svg">
+                                                <use xlink:href="/sprite.svg#icon-arrow-up" src="svg"></use>
+                                            </svg> 
+                                            <span>4%</span>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="table-col"><div class="projects">400</div></td>
+                                <td class="table-col"><div class="sales">$400,000</div></td>
+                            </tr>
+                            
+                            <tr class="table-row">
+                                <td class="table-col">
+                                    <div class="artist">
+                                        <figure class="artist-photo">
+                                            <div class="artist-img-box">
+                                                <img src="img/artist 2.jpg" alt="Image of artist" class="artist-img">
+                                            </div>                     
+                                            <figcaption class="artist-name light">Bluenose</figcaption>
+                                        </figure>
+                                    </div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="pending">pending</div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="ratings">
+                                        <div class="rate-bar fifty-seven"></div>
+                                        <span class="rate-percent">57%</span>
+                                        <span class="rate-loss">
+                                            <svg class="rate-icon " root="svg">
+                                                <use xlink:href="/sprite.svg#icon-arrow-down" src="svg"></use>
+                                            </svg> 
+                                            <span>8%</span>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="table-col"><div class="projects">200</div></td>
+                                <td class="table-col"><div class="sales">$400,000</div></td>
+                            </tr>
+                            
+                            <tr class="table-row">
+                                <td class="table-col">
+                                    <div class="artist">
+                                        <figure class="artist-photo">
+                                            <div class="artist-img-box">
+                                                <img src="img/artist 3.jpg" alt="Image of artist" class="artist-img">
+                                            </div>                     
+                                            <figcaption class="artist-name light">Pennywise</figcaption>
+                                        </figure>
+                                    </div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="verified">verified</div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="ratings">
+                                        <div class="rate-bar eighty-nine"></div>
+                                        <span class="rate-percent">89%</span>
+                                        <span class="rate-gain">
+                                            <svg class="rate-icon" root="svg">
+                                                <use xlink:href="/sprite.svg#icon-arrow-up" src="svg"></use>
+                                            </svg> 
+                                            <span>19%</span>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="table-col"><div class="projects">40,000</div></td>
+                                <td class="table-col"><div class="sales">$1,400,000</div></td>
+                            </tr>
+                            
+                            <tr class="table-row">
+                                <td class="table-col">
+                                    <div class="artist">
+                                        <figure class="artist-photo">
+                                            <div class="artist-img-box">
+                                                <img src="img/artist 4.jpg" alt="Image of artist" class="artist-img">
+                                            </div>                     
+                                            <figcaption class="artist-name light">Gregautsch</figcaption>
+                                        </figure>
+                                    </div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="unverified">unverified</div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="ratings">No ratings available</div>
+                                </td>
+                                <td class="table-col"><div class="projects">0</div></td>
+                                <td class="table-col"><div class="sales">$0</div></td>
+                            </tr>
+                            
+                            <tr class="table-row">
+                                <td class="table-col">
+                                    <div class="artist">
+                                        <figure class="artist-photo">
+                                            <div class="artist-img-box">
+                                                <img src="img/artist 5.jpg" alt="Image of artist" class="artist-img">
+                                            </div>                     
+                                            <figcaption class="artist-name light">Elpablo</figcaption>
+                                        </figure>
+                                    </div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="verified">verified</div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="ratings">
+                                        <div class="rate-bar fifty"></div>
+                                        <span class="rate-percent">50%</span>
+                                        <span class="rate-loss">
+                                            <svg class="rate-icon" root="svg">
+                                                <use xlink:href="/sprite.svg#icon-arrow-down" src="svg"></use>
+                                            </svg> 
+                                            <span>6%</span>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="table-col"><div class="projects">30</div></td>
+                                <td class="table-col"><div class="sales">$25,000</div></td>
+                            </tr>
+                            
+                            <tr class="table-row">
+                                <td class="table-col">
+                                    <div class="artist">
+                                        <figure class="artist-photo">
+                                            <div class="artist-img-box">
+                                                <img src="img/artist 6.jpg" alt="Image of artist" class="artist-img">
+                                            </div>                     
+                                            <figcaption class="artist-name light">Ell</figcaption>
+                                        </figure>
+                                    </div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="pending">pending</div>
+                                </td>
+                                <td class="table-col">
+                                    <div class="ratings">
+                                        <div class="rate-bar sixty-four"></div>
+                                        <span class="rate-percent">64%</span>
+                                        <span class="rate-gain">
+                                            <svg class="rate-icon" root="svg">
+                                                <use xlink:href="/sprite.svg#icon-arrow-up" src="svg"></use>
+                                            </svg> 
+                                            <span>7%</span>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td class="table-col"><div class="projects">400</div></td>
+                                <td class="table-col"><div class="sales">$400,000</div></td>
                             </tr>
                         </tbody>
 
                         <tfoot class="table-foot">
                             <tr class="table-row">
-                                <td colspan="3">
-                                    <span class="previous">Previous page</span>
-                                    <div class="numbers">
-                                        <span>1</span>
-                                        <span>2</span>
-                                        <span>3</span>
-                                        <span>4</span>
-                                        <span>5</span>
-                                        <span>6</span>
-                                        <span>7</span>
-                                    </div>
-                                    <span class="next">Next page</span>
+                                <td colspan="5">
+                                    <div class="table-nav">
+                                        <button class="btn previous">Previous page</button>
+                                        <div class="numbers">
+                                            <p id="current-page-nav"><a href="#">1</a ></p>
+                                            <p><a href="#">2</a ></p>
+                                            <p><a href="#">3</a ></p>
+                                            <p><a href="#">4</a ></p>
+                                            <p><a href="#">5</a ></p>
+                                            <p><a href="#">6</a ></p>
+                                            <p><a href="#">7</a ></p>
+                                        </div>
+                                        <button class="btn next">Next page</button>
+                                    </div>  
                                 </td>
                             </tr>
                         </tfoot>
