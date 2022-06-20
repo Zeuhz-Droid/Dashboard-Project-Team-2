@@ -288,12 +288,17 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 7rem;
+    gap: 8rem;
 }
 
 /* THE TOPMOST SEARCH INPUT STYLED i.e THE GENERAL SEARCH INPUT*/
 .search {
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
     position: relative;
 }
 
@@ -327,6 +332,10 @@ body {
 .search-input::-webkit-input-placeholder {
     font-size: 1.5rem;
     color: var(--color-txt-dark);
+}
+
+.search .user-nav {
+    display: none;
 }
 
 /* THE COLORED BOXES(SECTION) IN THE MAIN CONTENT */
@@ -415,6 +424,7 @@ body {
 }
 
 .content-search .search .search-input {
+    font-size: 1.3rem;
     padding: .5rem;
     padding-left: 3rem;
 }
@@ -513,7 +523,7 @@ body {
 .head-col {
     font-family: 'Luxora Grotesk';
     font-weight: normal;
-    padding: 1.3rem 2rem;
+    padding: 1.8rem 2rem;
     text-align: start;
 }
 
@@ -855,10 +865,7 @@ body {
     color: var(--status-completion-bg);
 }
 
-.artist-sale {
-    color: var(--color-txt);
-}
-
+.artist-sale,
 .artist-revenue {
     color: var(--color-txt-dark);
 }
@@ -879,7 +886,7 @@ body {
     border: none;
     color: var(--status-completion-bg);
     background-color: inherit;
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     border-radius: 1rem;
     transition: all .2s;
 }
@@ -935,3 +942,230 @@ body {
 
 /* SIDEBAR DAY END */
 /* END */
+
+
+
+
+/* /////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////// */
+
+
+
+/* MEDIA QUERIES FOR THE WHOLE SYLES */
+
+@media only screen and (max-width:75em) {   /* for < 1200px */
+    html {
+        font-size: 56.25%;    /*1rem = 9px (9/16) = 56.25% */
+    }
+
+    /* STYLING THE SIDEBAR ON THE RIGHT SIDE */
+    /* START */
+
+    .sidebar-right {
+        padding: 4rem 2rem 3rem;
+        gap: 2rem;
+    }
+
+    /* STYLE FOR THE ARTISTS SECTION */
+
+    .heading-3 {
+        font-size: 1.5rem;
+    }
+
+    .sidebar-artist {
+        padding: 3rem 1rem 2rem;
+    }
+
+    .artist-forum {
+        margin-top: 0;
+        gap: 1rem;
+    }
+
+    .artist-photo {
+        gap: .5rem;
+    }
+
+    .artist-img-box {
+        height: 4rem;
+        width: 4rem;
+        border: .8rem solid var(--color-bg);
+    }
+
+    .artist-name {
+        font-size: smaller;
+    }
+
+    .artist-sale,
+    .artist-revenue {
+        font-size: smaller;
+    }
+
+    /* BUTTON PART OF THE ARTIST SECTION */
+
+    .btn {
+        font-size: 1.3rem;
+    }
+
+    /* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
+
+    .sidebar-time {
+        font-size: 1.4rem;
+    }
+
+    .sidebar-time .empty {
+        padding: 1.3rem;
+    }
+
+    .bg-color-green {
+        padding: 1.3rem;
+    }
+
+    .sidebar-date {
+        font-size: 1.4rem;
+    }
+
+    /* SIDEBAR DAY END */
+    /* END */
+
+
+}
+
+@media only screen and (max-width:56.25em) {    /* for 900px */
+    html {
+        font-size: 50%;  
+    }
+
+    .container {
+        grid-template-columns: 1fr 5fr;
+    }
+
+    .sidebar-left {
+        border-bottom: 1px solid var(--color-bg);
+    }
+
+    .main {
+        margin-right: 2rem;
+        border-bottom: 1px solid var(--color-bg);
+    }
+
+    .search {
+        gap: 4rem;
+    }
+
+    .search .user-nav {
+        display: block;
+        transform: translateY(25%);
+    }
+
+    .user-nav {
+        font-size: 1.4rem;
+        gap: 2rem;
+    }
+
+    .user-img {
+        height: 3rem;
+        width: 3rem;
+        border: none;
+    }
+
+    .user-notification-box {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .user-notification {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    /* STYLING THE SIDEBAR ON THE RIGHT SIDE */
+    /* START */
+
+    .sidebar-right {
+        grid-column: 1 / -1;
+        padding: 4rem 5rem 3rem;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .user-nav {
+        display: none;
+    }
+
+    /* STYLE FOR THE ARTISTS SECTION */
+
+    .heading-3 {
+        font-size: 2rem;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .sidebar-artist {
+        padding: 4rem 3rem 2rem;
+    }
+
+    .artist-forum {
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    .artist-photo {
+        gap: .8rem;
+    }
+
+    .artist-img-box {
+        height: 5rem;
+        width: 5rem;
+        border: 1rem solid var(--color-bg);
+    }
+
+
+    .artist-name {
+        font-size: inherit;
+    }
+
+    /* BUTTON PART OF THE ARTIST SECTION */
+
+    .btn-box {
+        display: block;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+    }
+
+    /* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
+
+    .sidebar-day {
+        grid-column: 1 / -1;
+    }
+
+    .sidebar-time {
+        font-size: 1.5rem;
+    }
+
+    .sidebar-time .empty {
+        padding: 1.5rem;
+    }
+
+    .bg-color-green {
+        padding: 1.5rem;
+    }
+
+    .sidebar-date {
+        font-size: 1.5rem;
+    }
+
+    /* SIDEBAR DAY END */
+    /* END */
+
+}
+
+@media only screen and (max-width:37.5em) {     /* for 600px */
+
+}
