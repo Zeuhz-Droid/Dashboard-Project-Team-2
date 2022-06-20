@@ -1302,7 +1302,7 @@ body {
 
     .dropdown-link:link,
     .dropdown-link:visited {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         text-decoration: none;
         color: var(--color-txt-dark);
         padding: .5rem 1rem;
