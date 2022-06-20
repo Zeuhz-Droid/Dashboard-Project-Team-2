@@ -1255,7 +1255,7 @@ body {
         background-color: var(--color-txt-dark);
         position: relative;
         top: 50%;
-        left: 50%;
+        left: 50.5%;
         transform: translate(-50%, -50%);
     }
 
@@ -1271,11 +1271,11 @@ body {
     }
 
     .dropdown-btn-icon::before {
-        top: .5rem;
+        top: -.5rem;
     }
 
     .dropdown-btn-icon::after {
-        top: -.5rem;   
+        top: .6rem;   
     }
 
     .dropdown-nav {
