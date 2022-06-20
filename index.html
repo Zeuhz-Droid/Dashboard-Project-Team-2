@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team 2 Dashboard</title>
 
     <link rel="stylesheet" href="style.css">
-    <title>Team 2 Dashboard</title>
 </head>
 <body>
     <div class="container">
@@ -96,20 +96,84 @@
 
         <main class="main">
 
-            <div class="search">
-                <svg class="search-icon" root="svg">
-                    <use xlink:href="/sprite.svg#icon-search" src="svg"></use>
-                </svg>
-                <input type="text" placeholder="Search artists, projects..." class="search-input">
+            <div class="search search-top">
                 <div class="user-nav">
                     <figure class="user-detail">  
+                        <img src="user img .jpeg" alt="Image of artist" class="user-img">
                         <div class="user-notification-box">
                             <svg class="user-notification" root="svg">
                                 <use xlink:href="/sprite.svg#icon-bell-o" src="svg"></use>
                             </svg>
                         </div>
-                        <img src="user img .jpeg" alt="Image of artist" class="user-img">
+                        
                     </figure>
+                </div>
+                <div class="search-icon-box">
+                    <svg class="search-icon" root="svg">
+                        <use xlink:href="/sprite.svg#icon-search" src="svg"></use>
+                    </svg>
+                    <input type="text" placeholder="Search artists, projects..." class="search-input">
+                </div>
+
+                <!-- DROPDDOWN MENU FOR SMALLER SCREENS -->
+
+                <div class="dropdown">
+                    <input type="checkbox" name="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+                    <label for="dropdown-toggle" class="dropdown-button">
+                        <span class="dropdown-btn-icon"></span>
+                    </label>
+
+                    <div class="dropdown-nav">
+                        <div class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <svg class="dropdown-icon">
+                                    <use xlink:href="sprite.svg#icon-grid"></use>
+                                </svg>
+                                <span class="dropdown-text">Dashboard</span>
+                            </a>                   
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <svg class="dropdown-icon">
+                                    <use xlink:href="sprite.svg#icon-user-outline"></use>
+                                </svg>
+                                <span class="dropdown-text">Artists</span>
+                            </a>                   
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <svg class="dropdown-icon">
+                                    <use xlink:href="sprite.svg#icon-picture"></use>
+                                </svg>
+                                <span class="dropdown-text">projects</span>
+                            </a>                   
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <svg class="dropdown-icon">
+                                    <use xlink:href="sprite.svg#icon-sale"></use>
+                                </svg>
+                                <span class="dropdown-text">Sales</span>
+                            </a>                   
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <svg class="dropdown-icon">
+                                    <use xlink:href="sprite.svg#icon-cog"></use>
+                                </svg>
+                                <span class="dropdown-text">Settings</span>
+                            </a>                   
+                        </div>
+                        <div class="dropdown-item">
+                            <a href="#" class="dropdown-link">
+                                <svg class="dropdown-icon red">
+                                    <use xlink:href="sprite.svg#icon-logout"></use>
+                                </svg>
+                                <span class="dropdown-text red">Logout</span>
+                            </a>                   
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -142,7 +206,7 @@
                     </div>
 
                     <div class="content-search">
-                        <div class="search">
+                        <div class="search search-icon-box">
                             <svg class="search-icon" root="svg">
                                 <use xlink:href="/sprite.svg#icon-search" src="svg"></use>
                             </svg>
