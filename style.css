@@ -1183,6 +1183,10 @@ body {
         font-size: 50%;
     }
 
+    body {
+        font-size: 1.6rem;
+    }
+
     .container {
         grid-template-columns: 1fr;
     }
@@ -1270,13 +1274,9 @@ body {
         position: absolute;
     }
 
-    .dropdown-btn-icon::before {
-        top: -.5rem;
-    }
+    .dropdown-btn-icon::before {top: -.5rem;}
 
-    .dropdown-btn-icon::after {
-        top: .6rem;   
-    }
+    .dropdown-btn-icon::after {top: .6rem;}
 
     .dropdown-nav {
         width: 100%;
@@ -1302,7 +1302,7 @@ body {
 
     .dropdown-link:link,
     .dropdown-link:visited {
-        font-size: 1.8rem;
+        font-size: 2rem;
         text-decoration: none;
         color: var(--color-txt-dark);
         padding: .5rem 1rem;
