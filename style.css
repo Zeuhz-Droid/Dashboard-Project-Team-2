@@ -1305,7 +1305,7 @@ body {
         font-size: 2rem;
         text-decoration: none;
         color: var(--color-txt-dark);
-        padding: .5rem 1rem;
+        padding: .5rem 2rem;
         width: 100%;
         border-radius: .5rem;
     
@@ -1329,7 +1329,7 @@ body {
     
     .dropdown-text {
         font-family: 'Luxora Grotesk';
-        font-weight: 300;
+        font-weight: 500;
     }
 
     /* DRPDOWN FUNCTIONALITY */
