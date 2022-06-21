@@ -10,3 +10,9 @@ This is done as a prerequiste to learning Git and Github as well as working with
 This was started and finished in a span of 3days, media queries inclusive... the link to the hosted site will be appended below.
 
 LINK: https://zeuhz-droid.github.io/Dashboard-Project-Team-2/
+
+contributors: @Dearie-cyber https://github.com/Dearie-cyber
+
+This comes to the end of this projects, to GOD be all the Glory.
+
+Shalom.
