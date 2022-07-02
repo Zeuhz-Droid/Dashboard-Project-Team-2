@@ -2,100 +2,100 @@
 /* START */
 
 @font-face {
-    font-family: 'Luxora Grotesk';
-    src: url('font.css/LuxoraGrotesk-Medium.eot');
-    src: url('font.css/LuxoraGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
-        url('font.css/LuxoraGrotesk-Medium.woff2') format('woff2'),
-        url('font.css/LuxoraGrotesk-Medium.woff') format('woff'),
-        url('font.css/LuxoraGrotesk-Medium.svg#LuxoraGrotesk-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Luxora Grotesk";
+  src: url("font.css/LuxoraGrotesk-Medium.eot");
+  src: url("font.css/LuxoraGrotesk-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("font.css/LuxoraGrotesk-Medium.woff2") format("woff2"),
+    url("font.css/LuxoraGrotesk-Medium.woff") format("woff"),
+    url("font.css/LuxoraGrotesk-Medium.svg#LuxoraGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Luxora Grotesk';
-    src: url('LuxoraGrotesk-Light.eot');
-    src: url('font.css/LuxoraGrotesk-Light.eot?#iefix') format('embedded-opentype'),
-        url('font.css/LuxoraGrotesk-Light.woff2') format('woff2'),
-        url('font.css/LuxoraGrotesk-Light.woff') format('woff'),
-        url('font.css/LuxoraGrotesk-Light.svg#LuxoraGrotesk-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Luxora Grotesk";
+  src: url("LuxoraGrotesk-Light.eot");
+  src: url("font.css/LuxoraGrotesk-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("font.css/LuxoraGrotesk-Light.woff2") format("woff2"),
+    url("font.css/LuxoraGrotesk-Light.woff") format("woff"),
+    url("font.css/LuxoraGrotesk-Light.svg#LuxoraGrotesk-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Luxora Grotesk';
-    src: url('font.css/LuxoraGrotesk-Thin.eot');
-    src: url('font.css/LuxoraGrotesk-Thin.eot?#iefix') format('embedded-opentype'),
-        url('font.css/LuxoraGrotesk-Thin.woff2') format('woff2'),
-        url('font.css/LuxoraGrotesk-Thin.woff') format('woff'),
-        url('font.css/LuxoraGrotesk-Thin.svg#LuxoraGrotesk-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Luxora Grotesk";
+  src: url("font.css/LuxoraGrotesk-Thin.eot");
+  src: url("font.css/LuxoraGrotesk-Thin.eot?#iefix") format("embedded-opentype"),
+    url("font.css/LuxoraGrotesk-Thin.woff2") format("woff2"),
+    url("font.css/LuxoraGrotesk-Thin.woff") format("woff"),
+    url("font.css/LuxoraGrotesk-Thin.svg#LuxoraGrotesk-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Luxora Grotesk';
-    src: url('font.css/LuxoraGrotesk-Regular.eot');
-    src: url('font.css/LuxoraGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
-        url('font.css/LuxoraGrotesk-Regular.woff2') format('woff2'),
-        url('font.css/LuxoraGrotesk-Regular.woff') format('woff'),
-        url('font.css/LuxoraGrotesk-Regular.svg#LuxoraGrotesk-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Luxora Grotesk";
+  src: url("font.css/LuxoraGrotesk-Regular.eot");
+  src: url("font.css/LuxoraGrotesk-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("font.css/LuxoraGrotesk-Regular.woff2") format("woff2"),
+    url("font.css/LuxoraGrotesk-Regular.woff") format("woff"),
+    url("font.css/LuxoraGrotesk-Regular.svg#LuxoraGrotesk-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Luxora Grotesk Book';
-    src: url('font.css/LuxoraGrotesk-Book.eot');
-    src: url('font.css/LuxoraGrotesk-Book.eot?#iefix') format('embedded-opentype'),
-        url('font.css/LuxoraGrotesk-Book.woff2') format('woff2'),
-        url('font.css/LuxoraGrotesk-Book.woff') format('woff'),
-        url('font.css/LuxoraGrotesk-Book.svg#LuxoraGrotesk-Book') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Luxora Grotesk Book";
+  src: url("font.css/LuxoraGrotesk-Book.eot");
+  src: url("font.css/LuxoraGrotesk-Book.eot?#iefix") format("embedded-opentype"),
+    url("font.css/LuxoraGrotesk-Book.woff2") format("woff2"),
+    url("font.css/LuxoraGrotesk-Book.woff") format("woff"),
+    url("font.css/LuxoraGrotesk-Book.svg#LuxoraGrotesk-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* END  OF FONT STYLES*/
-
-
 
 /* GENERAL ROOT VARIABLES */
 /* START */
 
 :root {
-    /* Dashboard and Button */
+  /* Dashboard and Button */
 
-    --color-bg: #eeeeee;
-    --color-bg-light: #fafafa;
-    --color-txt: #bdbdbd;
-    --color-txt-dark: #999999;
-    --color-btn:#b6cb9c;
-    --color-dashboard:#b4cd93;
-    --color-red :#8e3131;
+  --color-bg: #eeeeee;
+  --color-bg-light: #fafafa;
+  --color-txt: #bdbdbd;
+  --color-txt-dark: #999999;
+  --color-btn: #b6cb9c;
+  --color-dashboard: #b4cd93;
+  --color-red: #8e3131;
 
-    /* Middle Section Headers */
-   
-    --dark-green: #5c664e;
-    --dark-red: #794b3e;
-    --darker-green: #2f4538;
-    --dark-yellow: #8f7544;
+  /* Middle Section Headers */
 
-    /* Middle section or Main Content Body */
+  --dark-green: #5c664e;
+  --dark-red: #794b3e;
+  --darker-green: #2f4538;
+  --dark-yellow: #8f7544;
 
-    --verified-bg: #dfede6;
-    --pending-bg: #f7f0b6;
-    --number-bg: #ebdfdd;
-    --status-completion-bg: #4c4c4c;
+  /* Middle section or Main Content Body */
+
+  --verified-bg: #dfede6;
+  --pending-bg: #f7f0b6;
+  --number-bg: #ebdfdd;
+  --status-completion-bg: #4c4c4c;
 }
 /* END */
-
-
 
 /* GENERAL STYLES START HERE */
 /* FOR PROPER SITE RESPONSIVENESS START*/
@@ -103,1274 +103,1306 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;    /* 10px == 1rem */
-    box-sizing: border-box;
+  font-size: 62.5%; /* 10px == 1rem */
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Luxora Grotesk';
+  font-family: "Luxora Grotesk";
 }
 
 .container {
-    max-width: 100%;
-    margin: 0 auto;
+  max-width: 100%;
+  margin: 0 auto;
 
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
 }
 
 /* STYLE FOR HIGHLIGHTING TEXT ON PAGE */
 ::selection {
-    background-color: var(--color-dashboard);
-    color: var(--color-bg-light);
+  background-color: var(--color-dashboard);
+  color: var(--color-bg-light);
 }
 
 /* MINOR UTILITIES */
 
 .heading-h2 {
-    font-family: 'Luxora Grotesk';
-    font-weight: normal;
-    font-size: 1.8rem;
-    letter-spacing: .05rem;
+  font-family: "Luxora Grotesk";
+  font-weight: normal;
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem;
 }
 
 .heading-h3 {
-    font-family: 'Luxora Grotesk';
-    font-size: 2rem;
-    font-weight: normal;
+  font-family: "Luxora Grotesk";
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 #current {
-    color: var(--status-completion-bg);
-    background-color: var(--color-dashboard);
+  color: var(--status-completion-bg);
+  background-color: var(--color-dashboard);
 }
 
 #current svg {
-    fill: var(--status-completion-bg);
+  fill: var(--status-completion-bg);
 }
 
 #current-page-nav {
-    background-color: var(--color-txt);
+  background-color: var(--color-txt);
 }
 
 #current-page-nav a {
-    color: var(--color-bg-light);
+  color: var(--color-bg-light);
 }
 
 /* FOR PROPER SITE RESPONSIVENESS  END*/
-
-
 
 /* STYLING THE SIDEBAR ON THE LEFT SIDE */
 /* START */
 
 .sidebar-left {
-    background-color: var(--color-bg-light);
-    margin: 0 auto;
-    padding: 3rem;
-    padding-top: 4rem;
+  background-color: var(--color-bg-light);
+  margin: 0 auto;
+  padding: 3rem;
+  padding-top: 4rem;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 /* THE LOGO SECTION OF THE LEFT SIDEBAR i.e THE BEZIER LOGO */
 .logo-box {
-    font-weight: 500;
-    color: transparent;
-    text-transform: uppercase;
-    background-image: linear-gradient(to right, var(--color-btn) 40%, var(--dark-green));
-    background-clip: text;
-    -webkit-background-clip: text;
+  font-weight: 500;
+  color: transparent;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    var(--color-btn) 40%,
+    var(--dark-green)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
 
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo {
-    height: 3.5rem;
-    width: 3.5rem;
-    fill: var(--color-dashboard);
+  height: 3.5rem;
+  width: 3.5rem;
+  fill: var(--color-dashboard);
 }
 
 .logo-text {
-    font-size: 2.5rem;
-    display: inline-block;
-    letter-spacing: .2rem;
+  font-size: 2.5rem;
+  display: inline-block;
+  letter-spacing: 0.2rem;
 }
 
 /* THE CONTENT OF THE LEFT SIDEBAR i.e THE DASHBOARD NAVIGATIONS */
 .nav {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .nav-link:link,
 .nav-link:visited {
-    font-size: 1.7rem;
-    text-decoration: none;
-    color: var(--color-txt-dark);
-    padding: 1rem 2rem;
-    width: 100%;
-    border-radius: .5rem;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: var(--color-txt-dark);
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 0.5rem;
 
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    
-    transition: all .1s ease-in;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  transition: all 0.1s ease-in;
 }
 
 .nav-link:hover {
-    color: var(--status-completion-bg);
-    border-radius: .5rem;
-    background-color: var(--color-dashboard);
+  color: var(--status-completion-bg);
+  border-radius: 0.5rem;
+  background-color: var(--color-dashboard);
 }
 
 .nav-link:hover .nav-icon {
-    fill: var(--status-completion-bg);
+  fill: var(--status-completion-bg);
 }
 
 .nav-icon {
-    width: 2.5rem;
-    height: 2.5rem;
-    fill: var(--color-txt-dark);
-    border-radius: .5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--color-txt-dark);
+  border-radius: 0.5rem;
 }
 
 .nav-text {
-    font-family: 'Luxora Grotesk Book';
-    font-weight: normal;
+  font-family: "Luxora Grotesk Book";
+  font-weight: normal;
 }
 
 /* QUICK UTILITY TOOL */
 .red {
-    fill: var(--color-red);
-    color: var(--color-red);
+  fill: var(--color-red);
+  color: var(--color-red);
 }
 
 .red:hover {
-    color: var(--status-completion-bg);
+  color: var(--status-completion-bg);
 }
 
 /* THE BOTTOM EXTRA, JUST FOR AESTHETICS */
 .copyright {
-    align-self: center;
-    color: var(--color-txt);
+  align-self: center;
+  color: var(--color-txt);
 }
 
 /* END */
 /* /////////////////////////////////////////////////////////// */
 
-
-
-
 /* STYLING FOT THE MAIN SECTION i.e THE MIDDLE SECTION */
 /* START */
 
 .main {
-    font-family: 'Luxora Grotesk Book';
-    font-weight: normal;
-    font-size: 1.4rem;
-    color: var(--status-completion-bg);
-    padding: 5rem 2rem 3rem 3rem;
+  font-family: "Luxora Grotesk Book";
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: var(--status-completion-bg);
+  padding: 5rem 2rem 3rem 3rem;
 
-    display: flex;
-    flex-direction: column;
-    gap: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
 }
 
 /* THE TOPMOST SEARCH INPUT STYLED i.e THE GENERAL SEARCH INPUT*/
 .search {
-    width: 100%;
+  width: 100%;
 }
 
 .search-icon-box {
-    position: relative;
+  position: relative;
 }
 
 .search-icon {
-    width: 2.8rem;
-    height: 2.8rem;
-    fill: var(--status-completion-bg);
-    position: absolute;
-    top: 50%;
-    left: 3%;
-    transform: translateY(-50%);
+  width: 2.8rem;
+  height: 2.8rem;
+  fill: var(--status-completion-bg);
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
 }
 
 .search-input {
-    font-family: 'Luxora Grotesk Book';
-    font-size: 1.5rem;
-    color: var(--color-txt-dark);
-    caret-color: var(--color-txt); 
-    width: 100%;
-    padding: 1.3rem;
-    padding-left: 6rem;
-    border: .15rem solid var(--color-bg);
-    border-radius: .4rem;
+  font-family: "Luxora Grotesk Book";
+  font-size: 1.5rem;
+  color: var(--color-txt-dark);
+  caret-color: var(--color-txt);
+  width: 100%;
+  padding: 1.3rem;
+  padding-left: 6rem;
+  border: 0.15rem solid var(--color-bg);
+  border-radius: 0.4rem;
 }
 
 .search-input:focus {
-    outline: none;
-    box-shadow: 0 1rem 2rem var(--color-bg);
+  outline: none;
+  box-shadow: 0 1rem 2rem var(--color-bg);
 }
 
 .search-input::-webkit-input-placeholder {
-    font-size: 1.5rem;
-    color: var(--color-txt-dark);
+  font-size: 1.5rem;
+  color: var(--color-txt-dark);
 }
 
 .search .user-nav {
-    display: none;
+  display: none;
 }
 
 .dropdown {
-    display: none;
+  display: none;
 }
 
 .dropdown-nav {
-    opacity: 0;
-    visibility: hidden;
-    width: 100vw;
-    border: 1px solid var(--color-bg);
-    padding: 1rem 0;
+  opacity: 0;
+  visibility: hidden;
+  width: 100vw;
+  border: 1px solid var(--color-bg);
+  padding: 1rem 0;
 }
 
 /* THE COLORED BOXES(SECTION) IN THE MAIN CONTENT */
 
 .header {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .boxes {
-    display: flex;
-    gap: 3rem;
+  display: flex;
+  gap: 3rem;
 }
 
 .box {
-    width: 40%;
-    height: max-content;
-    border-radius: .5rem;
-    padding: 2rem 1rem 1.5rem;
-    background-image: linear-gradient(75deg, 
-            var(--dark-green) 42%,
-            var(--dark-red) 42%, 
-            var(--dark-red) 70%,
-            var(--darker-green) 70%,
-            var(--darker-green) 85%,
-            var(--dark-yellow) 85%);
+  width: 40%;
+  height: max-content;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem 1.5rem;
+  background-image: linear-gradient(
+    75deg,
+    var(--dark-green) 42%,
+    var(--dark-red) 42%,
+    var(--dark-red) 70%,
+    var(--darker-green) 70%,
+    var(--darker-green) 85%,
+    var(--dark-yellow) 85%
+  );
 
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .box span {
-    font-family: 'Luxora Grotesk';
-    color: var(--color-bg-light);
+  font-family: "Luxora Grotesk";
+  color: var(--color-bg-light);
 }
 
 .box span:first-child {
-    font-size: 2.2rem;
-    font-weight: 500;
-    letter-spacing: -.1rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: -0.1rem;
 }
 
 .box span:last-child {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 /* THE BODY'S CONTENT STYLES i.e THE TABLE STRUCTURE */
 
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .content-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content-heading {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .content-heading span {
-    font-family: 'Luxora Grotesk';
-    font-weight: 300;
-    color: var(--color-txt);
+  font-family: "Luxora Grotesk";
+  font-weight: 300;
+  color: var(--color-txt);
 }
 
 .content-search {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .content-search .search .search-icon {
-    width: 1.8rem;
-    height: 1.8rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 .content-search .search .search-input {
-    font-size: 1.3rem;
-    padding: .5rem;
-    padding-left: 3rem;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  padding-left: 3rem;
 }
 
 .content-search .search .search-input::-webkit-input-placeholder {
-    font-size: 1.4rem;
-    color: var(--color-txt-dark);
+  font-size: 1.4rem;
+  color: var(--color-txt-dark);
 }
 
 .content-icon {
-    font-size: 1.4rem;
-    padding: .5rem;
-    border: .15rem solid var(--color-bg);
-    border-radius: .5rem;
-    fill: var(--status-completion-bg);
-    color: var(--status-completion-bg);
-    position: relative;
-    display: flex;
-    gap: .5rem;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border: 0.15rem solid var(--color-bg);
+  border-radius: 0.5rem;
+  fill: var(--status-completion-bg);
+  color: var(--status-completion-bg);
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .content-icon select {
-    appearance: none;
-    border: none;
-    padding: 0 1rem 0 .5rem;
-    border-radius: 0;
+  appearance: none;
+  border: none;
+  padding: 0 1rem 0 0.5rem;
+  border-radius: 0;
 }
 
 .content-icon select:focus {
-    outline: none;
+  outline: none;
 }
 
 .content-icon-1 {
-    width: 1.8rem;
-    height: 1.8rem;
-    transform: rotateY(180deg);
-    border-radius: 1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  transform: rotateY(180deg);
+  border-radius: 1rem;
 }
 
 .content-icon-2 {
-    width: .5rem;
-    height: .5rem;
-    position: absolute;
-    top: 48%;
-    left: 18%;
-    z-index: 1;
-    background-color: var(--color-bg-light);
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 48%;
+  left: 18%;
+  z-index: 1;
+  background-color: var(--color-bg-light);
 }
-
 
 /* STYLES FOR THE TABLE SECTION */
 
 .content-body {
-    font-family: 'Luxora Grotesk';
-    font-weight: normal;
-    width: 100%;
+  font-family: "Luxora Grotesk";
+  font-weight: normal;
+  width: 100%;
 }
 
 .table {
-    width: 100%;
-    border-radius: .5rem;
-    overflow: hidden;
-    white-space: nowrap;
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .table-head {
-    background-color: var(--color-bg);
+  background-color: var(--color-bg);
 }
 
 .table-body {
-    background-color: var(--color-bg-light);
+  background-color: var(--color-bg-light);
 }
 
 .table-foot {
-    background-color: var(--color-bg);
+  background-color: var(--color-bg);
 }
 
 .table-row {
-    position: relative;
+  position: relative;
 }
 
 .table-row:not(:last-child):after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    left: 0;
-    border-bottom: 1px solid var(--color-bg);
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  border-bottom: 1px solid var(--color-bg);
 }
 
 .table-col {
-    padding: 1rem 2rem;
-    text-align: start;
+  padding: 1rem 2rem;
+  text-align: start;
 }
 
 .head-col {
-    font-family: 'Luxora Grotesk';
-    font-weight: normal;
-    padding: 1.8rem 2rem;
-    text-align: start;
+  font-family: "Luxora Grotesk";
+  font-weight: normal;
+  padding: 1.8rem 2rem;
+  text-align: start;
 }
-
 
 /* STYLES FOR TABLE CONTENTS/BODY i.e EACH TABLE ROW OR DATA */
 
 .table-col .artist .artist-photo .artist-img-box {
-    height: 3.8rem;
-    width: 3.8rem;
-    border: .8rem solid var(--color-bg);
+  height: 3.8rem;
+  width: 3.8rem;
+  border: 0.8rem solid var(--color-bg);
 }
 
-.artist-name.light{
-    color: var(--color-txt-dark);
+.artist-name.light {
+  color: var(--color-txt-dark);
 }
 
 .verified,
 .pending {
-    font-family: 'Luxora Grotesk Book';
-    font-size: 1.4rem;
-    font-weight: normal;
-    width: max-content;
-    padding: .5rem;
-    border-radius: .5rem;
+  font-family: "Luxora Grotesk Book";
+  font-size: 1.4rem;
+  font-weight: normal;
+  width: max-content;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .verified {
-    color: var(--dark-green);
-    background-color: var(--verified-bg);
+  color: var(--dark-green);
+  background-color: var(--verified-bg);
 }
 
 .unverified {
-    font-family: 'Luxora Grotesk';
-    font-weight: 300;
-    color: var(--color-txt);
+  font-family: "Luxora Grotesk";
+  font-weight: 300;
+  color: var(--color-txt);
 }
 
 .pending {
-    color: var(--dark-yellow);
-    background-color: var(--pending-bg);
+  color: var(--dark-yellow);
+  background-color: var(--pending-bg);
 }
 
 /* RATINGS */
 .ratings {
-    font-family: 'Luxora Grotesk';
-    font-weight: 300;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: .5rem;
+  font-family: "Luxora Grotesk";
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
 }
 
 .rate-bar {
-    width: 10rem;
-    height: .5rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    position: relative;
-    background-color: var(--color-bg);
+  width: 10rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--color-bg);
 }
 
 .rate-bar::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: .5rem;
-    background-color: var(--status-completion-bg);   
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  background-color: var(--status-completion-bg);
 }
 
 .fourty.rate-bar::before {
-    transform: translateX(-60%);
+  transform: translateX(-60%);
 }
 
 .fifty-seven.rate-bar::before {
-    transform: translateX(-43%);
+  transform: translateX(-43%);
 }
 
 .eighty-nine.rate-bar::before {
-    transform: translateX(-11%);
+  transform: translateX(-11%);
 }
 
 .fifty.rate-bar::before {
-    transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .sixty-four.rate-bar::before {
-    transform: translateX(-36%);
+  transform: translateX(-36%);
 }
 
-
 .rate-percent {
-    font-family: 'Luxora Grotesk';
-    font-weight: 300;
-
+  font-family: "Luxora Grotesk";
+  font-weight: 300;
 }
 
 .rate-gain,
 .rate-loss {
-    font-family: 'Luxora Grotesk Book';
-    font-size: 1.4rem;
-    font-weight: normal;
-    width: max-content;
-    padding: .5rem;
-    border-radius: .5rem;
+  font-family: "Luxora Grotesk Book";
+  font-size: 1.4rem;
+  font-weight: normal;
+  width: max-content;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .rate-gain {
-    fill: var(--dark-green);
-    color: var(--dark-green);
-    background-color: var(--verified-bg);
+  fill: var(--dark-green);
+  color: var(--dark-green);
+  background-color: var(--verified-bg);
 }
 
 .rate-loss {
-    fill: var(--dark-red);
-    color: var(--dark-red);
-    background-color: var(--number-bg);
+  fill: var(--dark-red);
+  color: var(--dark-red);
+  background-color: var(--number-bg);
 }
 
 .rate-icon {
-    width: 1rem;
-    height: 1rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 /* PROJECTS AND SALES */
 
 .projects,
 .sales {
-    font-family: 'Luxora Grotesk';
-    font-weight: 300;
+  font-family: "Luxora Grotesk";
+  font-weight: 300;
 }
-
 
 /* THE TABLE FOOT SECTION i.e THE TABLE NAVIGATION */
 
 .table-nav {
-    font-family: 'Luxora Grotesk Book';
-    font-weight: normal;
-    font-size: 1.4rem;
-    padding: 1.5rem 2rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+  font-family: "Luxora Grotesk Book";
+  font-weight: normal;
+  font-size: 1.4rem;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .btn {
-    appearance: none;
-    border: none;
+  appearance: none;
+  border: none;
 }
 
 .btn.previous {
-    color: var(--color-txt-dark);
+  color: var(--color-txt-dark);
 }
 
 .numbers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .numbers p {
-    font-family: 'Luxora Grotesk';
-    font-size: 1.2rem;
-    font-weight: 500;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
-    background-color: var(--color-bg-light);
+  font-family: "Luxora Grotesk";
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--color-bg-light);
 
-    position: relative;
-    transition: all .2s;
+  position: relative;
+  transition: all 0.2s;
 }
 
 .numbers p a:link,
 .numbers p a:visited {
-    text-decoration: none;
-    color: var(--status-completion-bg);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: var(--status-completion-bg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .numbers p:hover {
-    background-color: var(--color-txt);
+  background-color: var(--color-txt);
 }
 
 .numbers p:hover a {
-    color: #0e0e0e;
+  color: #0e0e0e;
 }
 
 /* END */
 /* /////////////////////////////////////////////////////////// */
 
-
-
-
 /* STYLING THE SIDEBAR ON THE RIGHT SIDE */
 /* START */
 
 .sidebar-right {
-    font-size: 1.4rem;
-    font-weight: 300;
-    padding: 4rem 5rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding: 4rem 5rem 3rem;
 
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
-
 
 /* THE STYLE FOR THE USER NAVIGATION ON THE RIGHT SIDEBAR */
 
 .user-nav {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 5rem;
-
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5rem;
 }
 
 .user-detail {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .user-img {
-    height: 5rem;
-    width: 5rem;
-    border: 3px solid var(--color-bg);
-    border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  border: 3px solid var(--color-bg);
+  border-radius: 50%;
 }
 
 .user {
-    font-weight: normal;
-    display: flex;
-    flex-direction: column;
-    gap: .3rem;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
 
 .user-name {
-    color: var(--status-completion-bg);
+  color: var(--status-completion-bg);
 }
 
 .user-pos {
-    color: var(--color-txt);
+  color: var(--color-txt);
 }
 
 .user-notification-box {
-    background-color: var(--color-bg);
-    border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+  background-color: var(--color-bg);
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
 
-    position: relative;
+  position: relative;
 }
 
 .user-notification {
-    width: 2rem;
-    height: 2rem;
-    fill: var(--status-completion-bg);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 2rem;
+  height: 2rem;
+  fill: var(--status-completion-bg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* STYLE FOR THE ARTISTS SECTION */
 
 .heading-3 {
-    font-size: 2rem;
-    font-weight: normal;
-    text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
 }
 
 .sidebar-artist {
-    background-color: var(--color-bg-light);
-    padding: 4rem 3rem 2rem;
+  background-color: var(--color-bg-light);
+  padding: 4rem 3rem 2rem;
 
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .artist-forum {
-    margin-top: 2rem;
+  margin-top: 2rem;
 
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .artist-detail {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .artist-photo {
-    display: flex;
-    align-items: center;
-    gap: .8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 .artist-img-box {
-    height: 5rem;
-    width: 5rem;
-    border: 1rem solid var(--color-bg);
-    border-radius: 50%;
-    overflow: hidden;
+  height: 5rem;
+  width: 5rem;
+  border: 1rem solid var(--color-bg);
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .artist-img-box.square {
-    border: .3rem solid var(--color-bg);
-    border-radius: 1rem;
+  border: 0.3rem solid var(--color-bg);
+  border-radius: 1rem;
 }
 
 .artist-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .artist-img.circle {
-    padding: 1rem;
-    border-radius: 50%;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 .artist-name {
-    font-weight: 500;
-    color: var(--status-completion-bg);
+  font-weight: 500;
+  color: var(--status-completion-bg);
 }
 
 .artist-sale,
 .artist-revenue {
-    color: var(--color-txt-dark);
+  color: var(--color-txt-dark);
 }
 
 /* BUTTON PART OF THE ARTIST SECTION */
 
 .btn-box {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .btn {
-    appearance: none;
-    cursor: pointer;
-    font-size: 1.4rem;
-    font-family: inherit;
-    width: max-content;
-    border: none;
-    color: var(--status-completion-bg);
-    background-color: inherit;
-    padding: 1rem;
-    border-radius: 1rem;
-    transition: all .2s;
+  appearance: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: inherit;
+  width: max-content;
+  border: none;
+  color: var(--status-completion-bg);
+  background-color: inherit;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 0.2s;
 }
 
 .btn-color {
-    background-color: var(--color-btn);
-    border: 2px solid transparent;
+  background-color: var(--color-btn);
+  border: 2px solid transparent;
 }
 
 .btn-color:hover {
-    background-color: var(--color-bg-light);
-    border: 2px solid var(--color-btn);
-    color: var(--dark-green);
+  background-color: var(--color-bg-light);
+  border: 2px solid var(--color-btn);
+  color: var(--dark-green);
 }
 
 .btn-color:active {
-    background-color: var(--color-btn);
+  background-color: var(--color-btn);
 }
 
 /* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
 
 .sidebar-day {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .sidebar-time {
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .sidebar-time .empty {
-    padding: 1.5rem;
-    border-radius: .5rem;
-    border: .15rem solid var(--color-bg);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.15rem solid var(--color-bg);
 }
 
 .bg-color-green {
-    padding: 1.5rem;
-    border-radius: .5rem;
-    border: .15rem solid var(--color-btn);
-    background-color: var(--color-btn);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.15rem solid var(--color-btn);
+  background-color: var(--color-btn);
 }
 
 .sidebar-date {
-    font-size: 1.5rem;
-    font-weight: normal;
-    color: var(--status-completion-bg);
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--status-completion-bg);
 }
 
 /* SIDEBAR DAY END */
 /* END */
 
-
-
-
 /* /////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////// */
-
-
 
 /* MEDIA QUERIES FOR THE WHOLE SYLES */
 
-@media only screen and (max-width:75em) {   /* for < 1200px */
-    html {
-        font-size: 56.25%;    /*1rem = 9px (9/16) = 56.25% */
-    }
+@media only screen and (max-width: 75em) {
+  /* for < 1200px */
+  html {
+    font-size: 56.25%; /*1rem = 9px (9/16) = 56.25% */
+  }
 
-    /* STYLING THE SIDEBAR ON THE RIGHT SIDE */
-    /* START */
+  /* STYLING THE SIDEBAR ON THE RIGHT SIDE */
+  /* START */
 
-    .sidebar-right {
-        padding: 4rem 2rem 3rem;
-        gap: 2rem;
-    }
+  .sidebar-right {
+    padding: 4rem 2rem 3rem;
+    gap: 2rem;
+  }
 
-    /* STYLE FOR THE ARTISTS SECTION */
+  /* STYLE FOR THE ARTISTS SECTION */
 
-    .heading-3 {
-        font-size: 1.5rem;
-    }
+  .heading-3 {
+    font-size: 1.5rem;
+  }
 
-    .sidebar-artist {
-        padding: 3rem 1rem 2rem;
-    }
+  .sidebar-artist {
+    padding: 3rem 1rem 2rem;
+  }
 
-    .artist-forum {
-        margin-top: 0;
-        gap: 1rem;
-    }
+  .artist-forum {
+    margin-top: 0;
+    gap: 1rem;
+  }
 
-    .artist-photo {
-        gap: .5rem;
-    }
+  .artist-photo {
+    gap: 0.5rem;
+  }
 
-    .artist-img-box {
-        height: 4rem;
-        width: 4rem;
-        border: .8rem solid var(--color-bg);
-    }
+  .artist-img-box {
+    height: 4rem;
+    width: 4rem;
+    border: 0.8rem solid var(--color-bg);
+  }
 
-    .artist-name {
-        font-size: smaller;
-    }
+  .artist-name {
+    font-size: smaller;
+  }
 
-    .artist-sale,
-    .artist-revenue {
-        font-size: smaller;
-    }
+  .artist-sale,
+  .artist-revenue {
+    font-size: smaller;
+  }
 
-    /* BUTTON PART OF THE ARTIST SECTION */
+  /* BUTTON PART OF THE ARTIST SECTION */
 
-    .btn {
-        font-size: 1.3rem;
-    }
+  .btn {
+    font-size: 1.3rem;
+  }
 
-    /* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
+  /* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
 
-    .sidebar-time {
-        font-size: 1.4rem;
-    }
+  .sidebar-time {
+    font-size: 1.4rem;
+  }
 
-    .sidebar-time .empty {
-        padding: 1.3rem;
-    }
+  .sidebar-time .empty {
+    padding: 1.3rem;
+  }
 
-    .bg-color-green {
-        padding: 1.3rem;
-    }
+  .bg-color-green {
+    padding: 1.3rem;
+  }
 
-    .sidebar-date {
-        font-size: 1.4rem;
-    }
+  .sidebar-date {
+    font-size: 1.4rem;
+  }
 
-    /* SIDEBAR DAY END */
-    /* END */
-
-
+  /* SIDEBAR DAY END */
+  /* END */
 }
 
-@media only screen and (max-width:56.25em) {    /* for 900px */
-    html {
-        font-size: 50%;  
-    }
+@media only screen and (max-width: 56.25em) {
+  /* for 900px */
+  html {
+    font-size: 50%;
+  }
 
-    .container {
-        grid-template-columns: 1fr 5fr;
-    }
+  .container {
+    grid-template-columns: 1fr 5fr;
+  }
 
-    .sidebar-left {
-        border-bottom: 1px solid var(--color-bg);
-    }
+  .sidebar-left {
+    border-bottom: 1px solid var(--color-bg);
+  }
 
-    .main {
-        padding: 4rem 4rem 3rem 3rem;
-        border-bottom: 1px solid var(--color-bg);
-    }
+  .main {
+    padding: 4rem 4rem 3rem 3rem;
+    border-bottom: 1px solid var(--color-bg);
+  }
 
-    .search {
-        display: flex;
-        gap: 4rem;
-        flex-direction: row-reverse;
-    }
+  .search {
+    display: flex;
+    gap: 4rem;
+    flex-direction: row-reverse;
+  }
 
-    .search .user-nav {
-        display: block;
-        transform: translateY(35%);
-    }
+  .search .user-nav {
+    display: block;
+    transform: translateY(35%);
+  }
 
-    .user-nav {
-        font-size: 1.4rem;
-        gap: 2rem;
-    }
+  .user-nav {
+    font-size: 1.4rem;
+    gap: 2rem;
+  }
 
-    .user-img {
-        height: 3rem;
-        width: 3rem;
-        border: none;
-    }
+  .user-img {
+    height: 3rem;
+    width: 3rem;
+    border: none;
+  }
 
-    .user-notification-box {
-        height: 3rem;
-        width: 3rem;
-    }
+  .user-notification-box {
+    height: 3rem;
+    width: 3rem;
+  }
 
-    .user-notification {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
+  .user-notification {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 
-    /* STYLING THE SIDEBAR ON THE RIGHT SIDE */
-    /* START */
+  /* STYLING THE SIDEBAR ON THE RIGHT SIDE */
+  /* START */
 
-    .sidebar-right {
-        grid-column: 1 / -1;
-        padding: 4rem 5rem 3rem;
+  .sidebar-right {
+    grid-column: 1 / -1;
+    padding: 4rem 5rem 3rem;
 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        gap: 5rem;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 5rem;
+  }
 
-    .user-nav {
-        display: none;
-    }
+  .user-nav {
+    display: none;
+  }
 
-    /* STYLE FOR THE ARTISTS SECTION */
+  /* STYLE FOR THE ARTISTS SECTION */
 
-    .heading-3 {
-        font-size: 2rem;
-        font-weight: normal;
-        text-align: center;
-    }
+  .heading-3 {
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+  }
 
-    .sidebar-artist {
-        padding: 4rem 3rem 2rem;
-    }
+  .sidebar-artist {
+    padding: 4rem 3rem 2rem;
+  }
 
-    .artist-forum {
-        margin-top: 2rem;
-        gap: 2rem;
-    }
+  .artist-forum {
+    margin-top: 2rem;
+    gap: 2rem;
+  }
 
-    .artist-photo {
-        gap: .8rem;
-    }
+  .artist-photo {
+    gap: 0.8rem;
+  }
 
-    .artist-img-box {
-        height: 5rem;
-        width: 5rem;
-        border: 1rem solid var(--color-bg);
-    }
+  .artist-img-box {
+    height: 5rem;
+    width: 5rem;
+    border: 1rem solid var(--color-bg);
+  }
 
+  .artist-name {
+    font-size: inherit;
+  }
 
-    .artist-name {
-        font-size: inherit;
-    }
+  /* BUTTON PART OF THE ARTIST SECTION */
 
-    /* BUTTON PART OF THE ARTIST SECTION */
+  .btn-box {
+    display: block;
+    text-align: center;
+  }
 
-    .btn-box {
-        display: block;
-        text-align: center;
-    }
+  .btn {
+    font-size: 1.4rem;
+  }
 
-    .btn {
-        font-size: 1.4rem;
-    }
+  /* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
 
-    /* SIDEBAR ARTIST AND BUTTON SECTION END, SIDEBAR DAY STARTS */
+  .sidebar-day {
+    grid-column: 1 / -1;
+  }
 
-    .sidebar-day {
-        grid-column: 1 / -1;
-    }
+  .sidebar-time {
+    font-size: 1.5rem;
+  }
 
-    .sidebar-time {
-        font-size: 1.5rem;
-    }
+  .sidebar-time .empty {
+    padding: 1.5rem;
+  }
 
-    .sidebar-time .empty {
-        padding: 1.5rem;
-    }
+  .bg-color-green {
+    padding: 1.5rem;
+  }
 
-    .bg-color-green {
-        padding: 1.5rem;
-    }
+  .sidebar-date {
+    font-size: 1.5rem;
+  }
 
-    .sidebar-date {
-        font-size: 1.5rem;
-    }
-
-    /* SIDEBAR DAY END */
-    /* END */
-
+  /* SIDEBAR DAY END */
+  /* END */
 }
 
-@media only screen and (max-width:37.5em) {     /* for 600px */
-    html {
-        font-size: 50%;
-    }
+@media only screen and (max-width: 37.5em) {
+  /* for 600px */
+  html {
+    font-size: 50%;
+  }
 
-    body {
-        font-size: 1.6rem;
-    }
+  body {
+    font-size: 1.6rem;
+  }
 
-    .container {
-        grid-template-columns: 1fr;
-    }
+  .container {
+    grid-template-columns: 1fr;
+  }
 
-    .sidebar-left {
-        display: none;
-    }
+  .sidebar-left {
+    display: none;
+  }
 
-    .main {
-        width: 100%;
-    }
+  .main {
+    width: 100%;
+    overflow: hidden;
+    gap: 3rem;
+    padding: 3rem;
+  }
 
-    .search {
-        width: 100%;
-        
-        
-        display: grid;
-        
-        align-items: center;
-        gap: 4rem;
-    }
+  /* GENERAL SEARCH INPUT BOX FOR SMALLER SCREENS */
+  .search {
+    width: 100%;
 
-    .search .user-nav {
-        transform: translateY(0);
-        margin-bottom: 0;
+    display: grid;
 
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
+    align-items: center;
+    gap: 4rem;
+  }
 
-    .search.search-top {
-        grid-template-columns: 2fr 5fr .5fr;
-    }
-    
-    .search-icon {
-        width: 2rem;
-        height: 2rem;
-    }
+  .search .user-nav {
+    transform: translateY(0);
+    margin-bottom: 0;
 
-    .search-input {
-        font-size: 1.3rem;
-        padding: 2rem;
-        padding-left: 4rem;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 
-    .dropdown {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
+  /* .search.search-top {
+    grid-template-columns: 2fr 5fr 0.5fr;
+  } */
 
-    .dropdown-checkbox {
-        /* display: none; */
-        position: fixed;
-        top: 6.5rem;
-        right: 6.5rem;
-    }
+  .search-icon {
+    width: 2rem;
+    height: 2rem;
+  }
 
-    .dropdown-button {
-        background-color: var(--color-bg);
-        height: 6rem;
-        width: 6rem;
-        position: fixed;
-        top: 4.1rem;
-        right: 4.5rem;
-        border-radius: .5rem;
-        z-index: 1000;
-        box-shadow: 0 1rem 3rem rgba(black, .1);
-        text-align: center;
-        cursor: pointer;
-    }
+  .search-input {
+    font-size: 1.3rem;
+    padding: 2rem;
+    padding-left: 4rem;
+  }
 
-    .dropdown-btn-icon,
-    .dropdown-btn-icon::before,
-    .dropdown-btn-icon::after {
-        width: 3rem;
-        height: .3rem;
-        background-color: var(--color-txt-dark);
-        position: relative;
-        top: 50%;
-        left: 50.5%;
-        transform: translate(-50%, -50%);
-    }
+  /* BOXES STYLES FOR SMALLER SCREENS */
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    gap: 3rem;
+  }
 
-    .dropdown-btn-icon {
-        display: block;
-        position: relative;
-    }
+  .box {
+    width: 90%;
+    height: 12rem;
+    padding: 2rem;
+    gap: 2rem;
+  }
 
-    .dropdown-btn-icon::before,
-    .dropdown-btn-icon::after {
-        content: '';
-        position: absolute;
-    }
+  .box span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .dropdown-btn-icon::before {top: -.9rem;}
+  .box span:first-child {
+    font-size: 2.5rem;
+  }
 
-    .dropdown-btn-icon::after {top: 1.1rem;}
+  .content {
+    width: 100%;
+    overflow: hidden;
+  }
 
-    .dropdown-nav {
-        width: 100%;
-        height: 0;
+  .content-body {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+  }
 
-        position: fixed;
-        top: 12rem;
-        left: 0;
-        z-index: 5000;
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-        background-color: var(--color-bg-light);
-        transition: all .2s ease-in;
-    }
+  .dropdown-checkbox {
+    /* display: none; */
+    position: fixed;
+    top: 6.5rem;
+    right: 6.5rem;
+  }
 
-    .dropdown-item {
-        width: 100%;
-        padding: 2rem;
-    }
+  .dropdown-button {
+    background-color: var(--color-bg);
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+    top: 4.1rem;
+    right: 4.5rem;
+    border-radius: 0.5rem;
+    z-index: 1000;
+    box-shadow: 0 1rem 3rem rgba(black, 0.1);
+    text-align: center;
+    cursor: pointer;
+  }
 
-    .dropdown-item:not(:last-child) {
-        border-bottom: 1px solid var(--color-bg);
-    }
+  .dropdown-btn-icon,
+  .dropdown-btn-icon::before,
+  .dropdown-btn-icon::after {
+    width: 3rem;
+    height: 0.3rem;
+    background-color: var(--color-txt-dark);
+    position: relative;
+    top: 50%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+  }
 
-    .dropdown-link:link,
-    .dropdown-link:visited {
-        font-size: 2rem;
-        text-decoration: none;
-        color: var(--color-txt-dark);
-        padding: .5rem 2rem;
-        width: 100%;
-        border-radius: .5rem;
-    
-        display: flex;
-        align-items: center;
-        gap: 3rem;
-        
-        transition: all .2s;
-    }
+  .dropdown-btn-icon {
+    display: block;
+    position: relative;
+  }
 
-    .dropdown-link:active {
-        color: var(--status-completion-bg);
-    }
+  .dropdown-btn-icon::before,
+  .dropdown-btn-icon::after {
+    content: "";
+    position: absolute;
+  }
 
-    .dropdown-icon {
-        width: 1.5rem;
-        height: 1.5rem;
-        fill: var(--color-txt-dark);
-        border-radius: .5rem;
-    }
-    
-    .dropdown-text {
-        font-family: 'Luxora Grotesk Book';
-        font-size: 2.2rem;
-        font-weight: normal;
-        letter-spacing: .1rem;
-    }
+  .dropdown-btn-icon::before {
+    top: -0.9rem;
+  }
 
-    /* DRPDOWN FUNCTIONALITY */
+  .dropdown-btn-icon::after {
+    top: 1.1rem;
+  }
 
-    .dropdown-checkbox:checked ~ .dropdown-nav {
-        display: block;
-        opacity: 1;
-        visibility: visible;
-        height: 30vh;
-        overflow-y: scroll;
-    }
+  .dropdown-nav {
+    width: 100%;
+    height: 0;
 
-    .artist-sale,
-    .artist-revenue {
-        color: var(--status-completion-bg);
-    }
+    position: fixed;
+    top: 12rem;
+    left: 0;
+    z-index: 5000;
 
+    background-color: var(--color-bg-light);
+    transition: all 0.2s ease-in;
+  }
 
-    /* THE IMAGE AND NOTIFICATION NAV BAR */
+  .dropdown-item {
+    width: 100%;
+    padding: 2rem;
+  }
 
-    .user-img {
-        height: 6rem;
-        width: 6rem;
-    }
+  .dropdown-item:not(:last-child) {
+    border-bottom: 1px solid var(--color-bg);
+  }
 
-    .user-notification-box {
-        height: 6rem;
-        width: 6rem;
-    }
+  .dropdown-link:link,
+  .dropdown-link:visited {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--color-txt-dark);
+    padding: 0.5rem 2rem;
+    width: 100%;
+    border-radius: 0.5rem;
 
-    .user-notification {
-        width: 3rem;
-        height: 3rem;
-    }
-} 
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    transition: all 0.2s;
+  }
+
+  .dropdown-link:active {
+    color: var(--status-completion-bg);
+  }
+
+  .dropdown-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--color-txt-dark);
+    border-radius: 0.5rem;
+  }
+
+  .dropdown-text {
+    font-family: "Luxora Grotesk Book";
+    font-size: 2.2rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+  }
+
+  /* DRPDOWN FUNCTIONALITY */
+
+  .dropdown-checkbox:checked ~ .dropdown-nav {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    height: 50vh;
+    overflow-y: scroll;
+  }
+
+  .artist-sale,
+  .artist-revenue {
+    color: var(--status-completion-bg);
+  }
+
+  /* THE IMAGE AND NOTIFICATION NAV BAR */
+
+  .user-img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .user-notification-box {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .user-notification {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .sidebar-right {
+    font-size: 1.6rem;
+    padding: 4rem;
+    grid-template-columns: 1fr;
+  }
+}
