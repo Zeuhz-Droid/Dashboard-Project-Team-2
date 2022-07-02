@@ -1222,7 +1222,7 @@ body {
   /* BOXES STYLES FOR SMALLER SCREENS */
   .boxes {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 3rem;
     justify-items: center;
     margin-bottom: 5rem;
@@ -1266,7 +1266,7 @@ body {
     /* display: none; */
     position: fixed;
     top: 6.5rem;
-    right: 6.5rem;
+    right: 5.5rem;
   }
 
   .dropdown-button {
@@ -1275,7 +1275,7 @@ body {
     width: 5rem;
     position: fixed;
     top: 4.1rem;
-    right: 4.5rem;
+    right: 3rem;
     border-radius: 0.5rem;
     z-index: 1000;
     box-shadow: 0 1rem 3rem rgba(black, 0.1);
