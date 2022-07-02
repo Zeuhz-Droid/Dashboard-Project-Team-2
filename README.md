@@ -3,7 +3,7 @@
 ## Introduction
 
 This is a figma dashboard design recreated in codes, strictly with HTML and CSS. Also made responsive also. 
-This is done as a prerequiste to learning Git and Github as well as working with other developers as well...
+This is done as a prerequiste to learning Git and Github as well as working with other developers...
 
 ## Conclusion
 
