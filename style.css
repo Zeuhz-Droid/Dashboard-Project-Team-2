@@ -1274,7 +1274,7 @@ body {
     height: 5rem;
     width: 5rem;
     position: absolute;
-    top: 4.1rem;
+    top: 3.1rem;
     right: 3rem;
     border-radius: 0.5rem;
     z-index: 1000;
@@ -1376,7 +1376,7 @@ body {
     display: block;
     opacity: 1;
     visibility: visible;
-    height: 50vh;
+    height: 30vh;
     overflow-y: scroll;
   }
 
