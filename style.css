@@ -1267,8 +1267,8 @@ body {
   .dropdown-checkbox {
     /* display: none; */
     position: absolute;
-    top: 6.5rem;
-    right: 5.5rem;
+    top: 4.5rem;
+    right: 4.5rem;
   }
 
   .dropdown-button {
