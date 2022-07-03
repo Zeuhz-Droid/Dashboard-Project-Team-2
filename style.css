@@ -1183,6 +1183,8 @@ body {
     overflow: hidden;
     gap: 3rem;
     padding: 3rem;
+    border-bottom: none;
+    margin-bottom: 5rem;
   }
 
   /* GENERAL SEARCH INPUT BOX FOR SMALLER SCREENS */
@@ -1214,7 +1216,7 @@ body {
   }
 
   .search-input {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding: 2rem;
     padding-left: 4rem;
   }
