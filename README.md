@@ -11,7 +11,9 @@ This was started and finished in a span of 3days, media queries inclusive... the
 
 LINK: https://zeuhz-droid.github.io/Dashboard-Project-Team-2/
 
-contributors: @Dearie-cyber https://github.com/Dearie-cyber
+contributors:
+@zeuhzDroid 
+@Dearie-cyber https://github.com/Dearie-cyber
 
 This comes to the end of this projects, to GOD be all the Glory.
 
